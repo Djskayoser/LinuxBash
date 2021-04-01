@@ -1,0 +1,21 @@
+Task:
+1) Enter the folder
+2) Create 3 folders
+3) Enter any folder
+4) Create 5 files (3 txt, 2 json)
+5) Create 3 folders
+6) Print a list of the folder contents
+7) Move any 2 files, when has been created, in any folder.
+
+#! /bin/bash
+cd d:/QAPrograms/CygwinTests
+mkdir newfolder1
+cd d:/QAPrograms/CygwinTests/newfolder1
+mkdir testfolder1 testfolder2 testfolder3
+cd d:/QAPrograms/CygwinTests/newfolder1/testfolder1
+touch test1.txt test2.txt test3.txt test1.json test2.json
+mkdir testinto1 testinto2 testinto3
+ls
+mv /cygdrive/d/QAPrograms/CygwinTests/newfolder1/testfolder1/test1.json /cygdrive/d/QAPrograms/CygwinTests/newfolder1
+mv /cygdrive/d/QAPrograms/CygwinTests/newfolder1/testfolder1/test2.txt /cygdrive/d/QAPrograms/CygwinTests/newfolder1
+ 
